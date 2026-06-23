@@ -7,6 +7,5 @@ Types of Accounts
 new changes on 23-june-2026
 User Monthly Reports
 User Transactions
-CreditCards
-DebitCards
+
 ....
