@@ -2,3 +2,11 @@ Working with the Banking Domain Project
 10 Modules
 30+ Services
 Types of Accounts
+
+-----
+new changes on 23-june-2026
+User Monthly Reports
+User Transactions
+CreditCards
+DebitCards
+....
