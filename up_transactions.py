@@ -4,3 +4,8 @@ def init (self,name,up_id,bank_account):
   self.bank_account=bank_account
 transaction=Transaction(user1,user2,5000)
 print(transaction.make_transaction())
+
+def init (self, sender: user,receiver: User, amount)
+self.sender=sender
+self.receiver=receiver
+self.amount=amount
