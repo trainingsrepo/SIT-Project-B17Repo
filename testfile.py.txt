@@ -1,0 +1,2 @@
+def transfer_money();
+print("Transfer Successful);
