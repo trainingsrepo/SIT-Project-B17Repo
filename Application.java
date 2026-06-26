@@ -12,6 +12,17 @@ public class Account
 		Password1 = PassW1;
 		Name = NM;
 	}
+
+	#Feature102 Code changes by Shiva in his module Reports
+	public Transaction(String ToAcc, String FromAcc, String Cust_ID, String Amt, String Trans_type) { //Constructor One with four parameters
+		ToAccount = ToAcc;
+		FromAccount = FromAcc;
+		CustomerID = Cust_ID;
+		TransactionType = Trans_type;
+		Amount = Float.parseFloat(Amt);
+	}
+	#end of feature102
+
 	#Feature101 code changes by Akshat on Accounts Module 
 	public SavingAccount(String SA_Num, String Cust_Name, String Cust_ID, String Amt) { //Constructor One with three parameters
 		SavingAccountNumber = SA_Num;
@@ -20,6 +31,7 @@ public class Account
 		Amount = Float.parseFloat(Amt);
 	}
 	#end of feature101
+
 
 	public Account(String UN, String PassW) {
 		Username = UN;
