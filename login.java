@@ -19,21 +19,20 @@ public class Login {
 			}
 		});
 	}
-	#first changes at 11am by Developer1
-	 public static void main(String[] args) 
-       {
-            try {
-              UIManager.setLookAndFeel("com.sun.java.swing.plaf.motif.MotifLookAndFeel");
-            }catch(Exception e) {
-                  e.printStackTrace();
-            }
-            Login l = new Login("NDS Login Using Query Bean");
-            l.addWindowListener( new WindowAdapter() {
-                                       public void windowClosing(WindowEvent e) {
-                                          System.exit(0);
-                                       }
-                                     }
-                                );
-      
-       }
-	   #end of 11am changes
+	#Webhook Job Demo
+	#Following new changes done by Developer Shiva
+	 private static AdminPortType getStatelessWebServiceClient(
+    String webServiceURL) throws Exception
+  {
+    AdminService adminService = new AdminService(
+      new URL( webServiceURL ),
+      new QName(
+        "http://search.oracle.com/Admin",
+        "AdminService"
+      )
+    );
+ 
+    return adminService.getAdmin();
+  }
+}
+#18-JUL-2026 by developer Shiva
